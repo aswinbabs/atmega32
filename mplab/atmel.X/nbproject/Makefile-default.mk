@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=adc_atmega32.c
+SOURCEFILES_QUOTED_IF_SPACED=
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/adc_atmega32.o
-POSSIBLE_DEPFILES=${OBJECTDIR}/adc_atmega32.o.d
+OBJECTFILES_QUOTED_IF_SPACED=
+POSSIBLE_DEPFILES=
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/adc_atmega32.o
+OBJECTFILES=
 
 # Source Files
-SOURCEFILES=adc_atmega32.c
+SOURCEFILES=
 
 
 
@@ -88,19 +88,7 @@ MP_PROCESSOR_OPTION=ATmega32
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/adc_atmega32.o: adc_atmega32.c  .generated_files/flags/default/1520b08ba4f2e0d07d0091d8c6b872613df95395 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/adc_atmega32.o.d 
-	@${RM} ${OBJECTDIR}/adc_atmega32.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1 -g -DDEBUG  -gdwarf-2  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF "${OBJECTDIR}/adc_atmega32.o.d" -MT "${OBJECTDIR}/adc_atmega32.o.d" -MT ${OBJECTDIR}/adc_atmega32.o -o ${OBJECTDIR}/adc_atmega32.o adc_atmega32.c 
-	
 else
-${OBJECTDIR}/adc_atmega32.o: adc_atmega32.c  .generated_files/flags/default/b1f78393fa72c1f40ad1e543c024d4c17ecee78 .generated_files/flags/default/da39a3ee5e6b4b0d3255bfef95601890afd80709
-	@${MKDIR} "${OBJECTDIR}" 
-	@${RM} ${OBJECTDIR}/adc_atmega32.o.d 
-	@${RM} ${OBJECTDIR}/adc_atmega32.o 
-	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -x c -D__$(MP_PROCESSOR_OPTION)__   -mdfp="${DFP_DIR}/xc8"  -Wl,--gc-sections -O1 -ffunction-sections -fdata-sections -fshort-enums -fno-common -funsigned-char -funsigned-bitfields -Wall -DXPRJ_default=$(CND_CONF)  $(COMPARISON_BUILD)  -gdwarf-3 -mno-const-data-in-progmem     -MD -MP -MF "${OBJECTDIR}/adc_atmega32.o.d" -MT "${OBJECTDIR}/adc_atmega32.o.d" -MT ${OBJECTDIR}/adc_atmega32.o -o ${OBJECTDIR}/adc_atmega32.o adc_atmega32.c 
-	
 endif
 
 # ------------------------------------------------------------------------------------

@@ -1,5 +1,6 @@
-build/default/production/adc_atmega32.o.d \
- build/default/production/adc_atmega32.o: adc_atmega32.c \
+build/default/production/FAST_PWMxLCD_ATMEGA32.o.d \
+ build/default/production/FAST_PWMxLCD_ATMEGA32.o: \
+ FAST_PWMxLCD_ATMEGA32.c \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\io.h \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\sfr_defs.h \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\inttypes.h \
@@ -15,8 +16,7 @@ build/default/production/adc_atmega32.o.d \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\lock.h \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\util\delay.h \
  c:\program\ files\microchip\xc8\v2.46\avr\avr\include\util\delay_basic.h \
- c:\program\ files\microchip\xc8\v2.46\avr\avr\include\math.h \
- c:\program\ files\microchip\xc8\v2.46\avr\avr\include\stdio.h
+ c:\program\ files\microchip\xc8\v2.46\avr\avr\include\math.h
 
 c:\program\ files\microchip\xc8\v2.46\avr\avr\include\avr\io.h:
 
@@ -49,5 +49,3 @@ c:\program\ files\microchip\xc8\v2.46\avr\avr\include\util\delay.h:
 c:\program\ files\microchip\xc8\v2.46\avr\avr\include\util\delay_basic.h:
 
 c:\program\ files\microchip\xc8\v2.46\avr\avr\include\math.h:
-
-c:\program\ files\microchip\xc8\v2.46\avr\avr\include\stdio.h:
