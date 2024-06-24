@@ -61,7 +61,7 @@ int main(void) {
         int a=ADCL;
         a+=(ADCH<<8);
         command(0x80);
-        char c[10];
+        char c[100];
         float voltage;
         voltage=(a*5)/1023.0;
         sprintf(c,"%0.2f",voltage);

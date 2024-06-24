@@ -37,6 +37,10 @@
       <itemPath>ATMEGA_HWTEST.c</itemPath>
       <itemPath>atmega_hw_lcd.c</itemPath>
       <itemPath>atmega32_hw_adc.c</itemPath>
+      <itemPath>usart_hw_atmega32.c</itemPath>
+      <itemPath>timer0xtimer1_hw_atmega32.c</itemPath>
+      <itemPath>pwm_hw_atmega32.c</itemPath>
+      <itemPath>interrupt_hw_atmega32.c</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
@@ -265,9 +269,27 @@
         <XC8-config-global>
         </XC8-config-global>
       </item>
-      <item path="atmega32_hw_adc.c" ex="true" overriding="false">
+      <item path="atmega32_hw_adc.c" ex="false" overriding="false">
+        <HI-TECH-COMP>
+        </HI-TECH-COMP>
+        <HI-TECH-LINK>
+        </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
+        <XC8-config-global>
+        </XC8-config-global>
       </item>
       <item path="atmega_hw_lcd.c" ex="true" overriding="false">
+        <HI-TECH-COMP>
+        </HI-TECH-COMP>
+        <HI-TECH-LINK>
+        </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
+        <XC8-config-global>
+        </XC8-config-global>
+      </item>
+      <item path="interrupt_hw_atmega32.c" ex="true" overriding="false">
         <HI-TECH-COMP>
         </HI-TECH-COMP>
         <HI-TECH-LINK>
@@ -317,6 +339,16 @@
         <XC8-config-global>
         </XC8-config-global>
       </item>
+      <item path="pwm_hw_atmega32.c" ex="true" overriding="false">
+        <HI-TECH-COMP>
+        </HI-TECH-COMP>
+        <HI-TECH-LINK>
+        </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
+        <XC8-config-global>
+        </XC8-config-global>
+      </item>
       <item path="test.c" ex="true" overriding="false">
         <HI-TECH-COMP>
         </HI-TECH-COMP>
@@ -347,6 +379,16 @@
         <XC8-config-global>
         </XC8-config-global>
       </item>
+      <item path="timer0xtimer1_hw_atmega32.c" ex="true" overriding="false">
+        <HI-TECH-COMP>
+        </HI-TECH-COMP>
+        <HI-TECH-LINK>
+        </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
+        <XC8-config-global>
+        </XC8-config-global>
+      </item>
       <item path="timer1_atmega32.c" ex="true" overriding="false">
         <HI-TECH-COMP>
         </HI-TECH-COMP>
@@ -358,6 +400,16 @@
         </XC8-config-global>
       </item>
       <item path="usart.c" ex="true" overriding="false">
+        <HI-TECH-COMP>
+        </HI-TECH-COMP>
+        <HI-TECH-LINK>
+        </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
+        <XC8-config-global>
+        </XC8-config-global>
+      </item>
+      <item path="usart_hw_atmega32.c" ex="true" overriding="false">
         <HI-TECH-COMP>
         </HI-TECH-COMP>
         <HI-TECH-LINK>
